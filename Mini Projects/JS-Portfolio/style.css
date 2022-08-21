@@ -40,11 +40,11 @@ body{
 .menu-items a{
     text-decoration: none;
     color: brown;
-    font-size: 30px;
-    padding: 5px;
+    font-size: 40px;
+    padding: 10px;
 }
 .menu-items a:hover{
-    border-bottom: 15px soild rgb(21, 160, 39);
+    border-bottom: 5px soild rgb(21, 160, 39);
 }
 .home-content.name {
     position: absolute;
@@ -55,7 +55,7 @@ body{
     width: 100%;
     text-align: center;
 }
-.home-content.name h1{
+.home-content.name h1 {
     font-size: 20px;
     text-align: center;
 }
