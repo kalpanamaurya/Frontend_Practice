@@ -74,3 +74,20 @@ body{
     border-radius: 30%;
 
 }
+.angle-down-icon a{
+    text-decoration: none;
+    color: rgb(24, 85, 59);
+    padding: 20rem;
+}
+.about-me{
+    background-color:aqua;
+    padding: 15px;
+}
+.about-me .about-heading {
+    color: #25b79f41;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+}
+
+
