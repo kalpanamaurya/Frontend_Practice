@@ -53,7 +53,7 @@ body{
     color: rgba(119, 29, 204, 0.027);
     transform: translate(-30 , -30);
     width: 100%;
-    text-align: center;
+    text-align:center;
 }
 .home-content.name h1 {
     font-size: 20px;
@@ -65,27 +65,25 @@ body{
     font-size: 20px;
 }
 .angle-down-icon {
-    position: absoluta;
     bottom: 20%;
     left:  70%;
-    transform: translate(-50 ,-50);
-    font-size: 30px;
-    border: 5px solid rgb(156, 156, 9);
-    border-radius: 30%;
+    font-size: 20px;
+    border: 5px solid rgba(255, 0, 0, 0.644);
+    border-radius: 20%;
 
 }
 .angle-down-icon a{
     text-decoration: none;
-    color: rgb(24, 85, 59);
+    color: rgb(191, 240, 16);
     padding: 20rem;
 }
 .about-me{
-    background-color:aqua;
+    background-color:rgb(164, 243, 243);
     padding: 15px;
 }
 .about-me .about-heading {
-    color: #25b79f41;
-    font-size: 15px;
+    color:black;
+    font-size: 30px;
     font-weight: 300;
     text-align: center;
 }
