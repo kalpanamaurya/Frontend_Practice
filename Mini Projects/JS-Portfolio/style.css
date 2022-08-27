@@ -87,5 +87,15 @@ body{
     font-weight: 300;
     text-align: center;
 }
+ .footer colm{
+    color: rgb(89, 7, 172);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20%;
+    padding: 3px;
+    margin: 4px;
+    font-weight: 400;
+
+}
+
 
 
