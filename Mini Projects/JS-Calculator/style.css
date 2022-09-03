@@ -19,21 +19,28 @@ body{
 table{
       margin: auto;
       text-indent: initial;
-      size: 20px;
+      size: 30px;     
 }
 
 input{
       font-size: 30px;
       border: 3px solid rgb(17, 12, 49);
       border-radius: 19px; 
-      text-align: end;   
+      text-align: end;        
 }
+
+/*input[type="text"]:hover{
+      transition: 5s;
+      background: linear-gradient(green);
+
+}*/
 
 button{
       border-radius: 18px;
       font-size: 30px;
       width: 50px;
-      height: 80px;  
+      height: 80px; 
+
 }
 #calculater{
       border: 3px solid blue;
@@ -45,4 +52,11 @@ button{
 }
 button#clear{
       background: rgb(156, 4, 4);
-}       
+      color: beige;
+}
+button#equal{
+      background: orangered;
+      font-size: 40px;
+      width: 50px;
+      
+}     
