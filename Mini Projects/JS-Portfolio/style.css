@@ -2,31 +2,38 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 
 }
 body{
+    background: #080808;
+    color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
- header{
+ #header{
      background-color: rgb(84, 197, 212);
      height:  200px;
+     width:100% ;
+
  }
  .container{
-    max-width: 900px;
+    padding: 10px 10x;
+   /* max-width: 900px;
     width: 100x;
-    margin: auto;
+    margin: auto;*/
  }
     
-.navbar{
-    position: fixed;
-    width: 100px;
-    z-index: 200px;
-}
-.navbar-container {
+nav{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    height: 200Spx;
+    justify-content:space-between ;
+    flex-wrap: wrap;
+
+}
+/*
+
 
 }
 .menu-items{
