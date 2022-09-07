@@ -14,22 +14,25 @@ body{
 }
  #header{
      background-color: rgb(84, 197, 212);
-     height:  200px;
+     height:  80px;
      width:100% ;
 
  }
  .container{
     padding: 10px 10x;
-   /* max-width: 900px;
+    max-width: 900px;
     width: 100x;
-    margin: auto;*/
+    margin: auto;
+ }
+ div{
+    display: block;
  }
     
 nav{
     display: flex;
     align-items: center;
     justify-content:space-between ;
-    flex-wrap: wrap;
+    ss
 
 }
 h1{
@@ -61,11 +64,14 @@ nav ul li a:hover::after{
 }
 .header-text{
     margin-top: 20%;
-    font-size: 20px;
+    font-size: 25px;
 }
 .header-text h1{
     font-size: 30px;
     margin-top: 20px;
+}
+.header-text span{
+    color: rgba(161, 8, 8, 0.842);
 }
 
 /*
@@ -129,7 +135,7 @@ nav ul li a:hover::after{
     font-size: 30px;
     font-weight: 300;
     text-align: center;
-}
+}*/
  .footer colm{
     color: rgb(89, 7, 172);
     font-family: 'Courier New', Courier, monospace;
@@ -139,6 +145,8 @@ nav ul li a:hover::after{
     font-weight: 400;
 
 }
+
+
 
 
 
