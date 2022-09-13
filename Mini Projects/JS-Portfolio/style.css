@@ -93,7 +93,7 @@ nav ul li a:hover::after{
    margin-left: 60px;
    border-radius: 15px;
    width: 250px;
-   height: 250px;
+   height: 300px;
 
 }
 .about-col-2{
@@ -128,4 +128,12 @@ nav ul li a:hover::after{
 .tab-links.active-link::after{
     width: 50%;
 
+}
+.tab-contents ul li{
+    list-style: none;
+    margin: 10px 0px;
+}
+.tab-contents ul li span{
+    color: rgb(158, 4, 4);
+    font-size: 16px;
 }
