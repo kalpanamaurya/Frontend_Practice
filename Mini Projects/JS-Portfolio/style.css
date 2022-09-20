@@ -144,3 +144,13 @@ nav ul li a:hover::after{
     display:block;
 
 }
+/*...................services............*/
+#services{
+    padding: 10px 0;
+}
+.services-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250x,1fr));
+    grid-gap: 40px;
+    margin-top: 40px;
+}
