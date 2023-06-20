@@ -8,8 +8,41 @@
 <body>
     <p>This is My Frist jquery</p>
 
+    <h1></h1>
+    <div class="demo"></div>
+    <div id="tyson"></div>
+
+    <div class="demo22 display-6 text-warning">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+     <button id="click" class="btn btn-outline-warning rounded-pill">click</button>
+
+    <div class="display-3 text-center text-danger" id="text33">Lorem ipsum dolor sit amet.</div>
+     <input class="form-control w-50 p-3 m-5" id="input11"></input>
+
+
     <script>
-        console.log("WE ARE USING jQuery");
+       
+        $(document).ready(function(){
+            $('h1').text('These is how you can call html tag ');
+            $('.demo').text('certain kind of words in class');
+            $('#tyson').text('ID is called in jquery');
+        })
+
+        $(document).ready(function(){
+            $('#click').dblclick(function(){
+                $('.demo22').show(4000);
+            });
+        });
+
+        $(document).ready(function(){
+            $('#input11').mouseenter(function(){
+                $('#text33').hide(2000);
+            });
+            $('#input11').mouseleave(function(){
+                $('#text33').show(2000);
+            });
+        });
+
+
     </script>
 
     <script
