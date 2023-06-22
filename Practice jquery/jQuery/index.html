@@ -29,7 +29,13 @@
 
     <!---windows even-->
     <p class="lead" id="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quia magnam recusandae? Ipsum
-        id animi earum delectus quia iure culpa!</p>
+        id animi earum delectus quia iure Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam a cum nesciunt nam rerum quo id modi
+        hic molestias, eos ex labore, mollitia dolores vero illum, porro nisi quia deleniti! Iste rerum ratione
+        reprehenderit distinctio optio at, cupiditate quaerat corrupti.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam a cum nesciunt nam rerum quo id modi
+        hic molestias, eos ex labore, mollitia dolores vero illum, porro nisi quia deleniti! Iste rerum ratione
+        reprehenderit distinctio optio at, cupiditate quaerat corrupti.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam a cum nesciunt nam rerum quo id modi
+        hic molestias, eos ex labore, mollitia dolores vero illum, porro nisi quia deleniti! Iste rerum ratione
+        reprehenderit distinctio optio at, cupiditate quaerat corrupti. culpa!</p>
     <p class="lead" id="para2">Lorem ipsumLorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam a cum nesciunt nam rerum
         quo id modi
         hic molestias, eos ex labore, mollitia dolores vero illum, porro nisi quia deleniti! Iste rerum ratione
@@ -57,8 +63,7 @@
         hic molestias, eos ex labore, mollitia dolores vero illum, porro nisi quia deleniti! Iste rerum ratione
         reprehenderit distinctio optio at, cupiditate quaerat corrupti.</p>
 
-
-
+        <!----->
 
     <script src="https://code.jquery.com/jquery-3.7.0.js"
         integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
@@ -77,6 +82,12 @@
         $(document).ready(function () {
             $(window).resize(function () {
                 $('#para1').hide(2500);
+            });
+        });
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                $('#para2').hide(2000);
+
             });
         });
 
