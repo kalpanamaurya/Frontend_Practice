@@ -63,7 +63,23 @@
         hic molestias, eos ex labore, mollitia dolores vero illum, porro nisi quia deleniti! Iste rerum ratione
         reprehenderit distinctio optio at, cupiditate quaerat corrupti.</p>
 
-        <!----->
+        <!---fade event--->
+
+        <div class="d-flex justify-content-center">
+            <div class="card" style="width: 14rem; " id=" card">
+                <img src="/cake.jpg" class="card-img-top" alt="...">`
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">The card title and make up the bulk of the card's content.</p>
+                 
+                </div>
+              </div>
+        </div>
+        <div class="d-flex justify-content-center">
+              <a href="#" class="btn btn-primary mt-2" id="slide">slideUp slideDown</a> 
+        </div>
+
+
 
     <script src="https://code.jquery.com/jquery-3.7.0.js"
         integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
@@ -74,13 +90,13 @@
     <script>
 
         $(document).ready(function () {
-            $('#input').keypress(function () {
+            $('#input').keypress(function (){
                 $('#text1').hide(2000);
             });
         });
 
         $(document).ready(function () {
-            $(window).resize(function () {
+            $(window).resize(function (){
                 $('#para1').hide(2500);
             });
         });
@@ -91,6 +107,18 @@
             });
         });
 
+        $(document).ready(function () {
+            $('#slide').click(function (){
+                $('#card').slideUp(2500);
+            });
+            $('#slide').dblclick(function (){
+                $('#card').slideDown(2500);
+            });
+    
+        });
+        
+      
+        
     </script>
 
 </body>
