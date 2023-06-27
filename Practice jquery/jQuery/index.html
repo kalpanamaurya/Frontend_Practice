@@ -88,7 +88,7 @@
             <img src="/cake.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                <p class="card-text"> Make up the bulk of themjc
                     card's content.</p>
             </div>
         </div>
@@ -96,6 +96,17 @@
     <div class="d-flex justify-content-center mt-2">
         <a href="#" class="btn btn-primary mt-2" id="slide2">SLIDE UP AND SLIDE DOWN</a>
     </div>
+
+    <!---css in jquery-->
+      
+       <p class="lead mt-5 text-center" id="text5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione iste minus illum accusantium, consequuntur quos.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione iste minus illum accusantium, consequuntur quosLorem ipsum dolor sit amet consectetur adipisicing elit. Ratione iste minus illum accusantium, consequuntur quos </p>
+
+        <div class="d-flex justify-content-center">
+            <a href="#" class="btn btn-primary mt-3" id="click5">click</a>
+        </div>
+
+
 
 
 
@@ -139,11 +150,15 @@
                 $('#card2').slideToggle(2500);
             });
         });
+        $(document).ready(function () {
+            $('#click5').click(function () {
+                $('#text5').css({ 'fontStyle': 'italic', 'backgroundColor': 'black', 'color': 'white' })
+            });
+        });
 
       
         
     </script>
 
 </body>
-
 </html>
