@@ -129,6 +129,15 @@
         <a href="#" class="btn btn-primary mt-3" id="click6">click</a>
     </div>
 
+    <p class="lead text-center mt-5" id="text7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi repellat
+        iure, aut perferendis unde
+        saepe similique atque et laudantium tempora corrupti ratione vel quae libero odit a culpa ullam aspernatur
+        doloribus</p>
+
+    <div class="d-flex justify-content-center">
+        <a href="#" class="btn btn-primary mt-3" id="click7">click</a>
+    </div>
+
 
 
 
@@ -183,6 +192,16 @@
                 $('#text6').css({ 'fontStyle': 'italic', 'backgroundColor': 'black', 'color': 'white' }).slideUp(2500).slideDown(3000).fadeTo(2500, 0.4);
             });
         });
+
+        $(document).ready(function () {
+            $('#click7').click(function () {
+                $('#text7').fadeTo(2500, 0.4, function () {
+                    alert('These is how javascript work inside a jquery function');
+                })
+            });
+        });
+
+
 
 
 
