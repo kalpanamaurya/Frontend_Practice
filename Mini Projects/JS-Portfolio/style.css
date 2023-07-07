@@ -15,7 +15,7 @@ body {
 }
 
 #header {
-    background-color: rgb(84, 197, 212);
+    background-color: rgb(165, 84, 212);
     height: 10vh;
     width: 100%;
     background-size: cover;
@@ -63,7 +63,7 @@ nav ul li a::after {
     content: '';
     width: 0;
     height: 3px;
-    background-color: rgba(255, 0, 0, 0.589);
+    background-color: rgba(255, 0, 0, 0.842);
     position: absolute;
     left: 0;
     bottom: -5px;
@@ -75,17 +75,17 @@ nav ul li a:hover::after {
 }
 
 .header-text {
-    margin-top: 8%;
-    font-size: 20px;
+    margin-top: 7%;
+    font-size: 22px;
 }
 
 .header-text h1 {
-    font-size: 25px;
-    margin-top: 15px;
+    font-size: 20px;
+    margin-top: 12px;
 }
 
 .header-text span {
-    color: rgba(253, 65, 65, 0.925);
+    color: rgba(250, 253, 65, 0.925);
 }
 
 /*--------about-----*/
@@ -211,7 +211,7 @@ nav ul li a:hover::after {
 }
 
 .services-list div:hover {
-    background: #ff004f;
+    background: #cc5f82;
     transform: translate(-10px);
 }
 
