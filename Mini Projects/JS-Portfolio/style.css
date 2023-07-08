@@ -76,7 +76,8 @@ nav ul li a:hover::after {
 
 .header-text {
     margin-top: 7%;
-    font-size: 22px;
+    font-size: 22nmnbvxczṢ
+    px;
 }
 
 .header-text h1 {
@@ -138,7 +139,7 @@ nav ul li a:hover::after {
 .tab-links::after {
     content: '';
     width: 0px;
-    height: 3px;
+    height: 4px;
     background: red;
     position: absolute;
     left: 0px;
@@ -171,8 +172,10 @@ nav ul li a:hover::after {
 }
 
 /*...................services............*/
+
+
 #services {
-    padding: 10px 0;
+    padding: 12px 0;
 }
 
 .services-list {
@@ -185,9 +188,9 @@ nav ul li a:hover::after {
 .services-list div {
     background: #262626;
     padding: 40px;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 300;
-    border-radius: 10px;
+    border-radius: 11px;
     transition: background 0.5s, transform 0.5s;
 }
 
@@ -199,14 +202,14 @@ nav ul li a:hover::after {
 .services-list div h2 {
     font-size: 30px;
     font-weight: 400;
-    margin-bottom: 15px;
+    margin-bottom: 14px;
 }
 
 .services-list div a {
     text-decoration: none;
     color: #fff;
-    font-size: 10px;
-    margin-top: 15px;
+    font-size: 11px;
+    margin-top: 16px;
     display: inline-block;
 }
 
@@ -216,6 +219,8 @@ nav ul li a:hover::after {
 }
 
 /*---------------------------portfolio-------------------------*/
+
+
 #portfolio {
     padding: 25SSpx 0;
 }
@@ -235,7 +240,7 @@ nav ul li a:hover::after {
 
 .work img {
     width: 100%;
-    border-radius: 5px;
+    border-radius: 6px;
     display: block;
 
 }
