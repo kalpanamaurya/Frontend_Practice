@@ -244,3 +244,36 @@ nav ul li a:hover::after {
     display: block;
 
 }
+  
+/*.......footer......*/
+
+
+footer {
+   width: 100%;
+   margin: auto;
+   background: rgb(245, 144, 144);
+}
+
+.footer-team {
+   max-width: 11170px;
+
+}
+
+.rowend {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+
+
+.footer-col {
+   width: 25%;
+   padding: 20px 20px;
+}
+.footer-col h2 {
+    font-size: 15px;
+    color: rgb(143, 247, 94);
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    position: relative;
+ }
