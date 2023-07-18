@@ -233,14 +233,14 @@ nav ul li a:hover::after {
 }
 
 .work {
-    border-radius: 12px;
+    border-radius: 15px;
     position: relative;
     overflow: hidden;
 }
 
 .work img {
     width: 100%;
-    border-radius: 6px;
+    border-radius: 8px;
     display: block;
 
 }
@@ -251,7 +251,7 @@ nav ul li a:hover::after {
 footer {
    width: 100%;
    margin: auto;
-   background: rgb(245, 144, 144);
+   background: rgb(65, 166, 248);
 }
 
 .footer-team {
@@ -268,12 +268,12 @@ footer {
 
 .footer-col {
    width: 25%;
-   padding: 20px 20px;
+   padding: 18px 18px;
 }
 .footer-col h2 {
     font-size: 15px;
-    color: rgb(143, 247, 94);
+    color: rgb(207, 18, 34);
     text-transform: capitalize;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     position: relative;
  }
