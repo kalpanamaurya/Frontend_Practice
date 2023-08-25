@@ -12,9 +12,10 @@ body{
 }
 .container{
     background-color: beige;
-    padding: 15px;
+    padding: 20px;
     border-radius: 3px;
     text-align: center;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.1);
 }
 input[type="email"] {
         padding: 8px;
@@ -25,7 +26,7 @@ input[type="email"] {
       }
 button{
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #57a3f5;
     color: white;
     border:none;
     border-radius: 3px;
