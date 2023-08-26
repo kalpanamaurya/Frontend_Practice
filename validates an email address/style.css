@@ -12,8 +12,8 @@ body{
 }
 .container{
     background-color: beige;
-    padding: 20px;
-    border-radius: 3px;
+    padding: 18px;
+    border-radius: 5px;
     text-align: center;
     box-shadow: 0 2px rgba(0, 0, 0, 0.1);
 }
@@ -21,7 +21,7 @@ input[type="email"] {
         padding: 8px;
         width: 100%;
         border: 1px solid #ccc;
-        border-radius: 3px;
+        border-radius: 5px;
         margin-bottom: 10px;
       }
 button{
@@ -33,7 +33,7 @@ button{
     cursor: pointer;
 }
 button:hover {
-    background-color: #2c69aa;
+    background-color: #5282b4;
 }
 #output{ 
     margin-top: 10px;
