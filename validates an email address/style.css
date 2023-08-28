@@ -4,7 +4,7 @@
 }
 body{
     font-family: Arial, sans-serif;
-    background-color:rgb(235, 166, 166);
+    background-color:rgb(235, 129, 129);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +12,7 @@ body{
 }
 .container{
     background-color: beige;
-    padding: 18px;
+    padding: 20px;
     border-radius: 5px;
     text-align: center;
     box-shadow: 0 2px rgba(0, 0, 0, 0.1);
@@ -21,7 +21,7 @@ input[type="email"] {
         padding: 8px;
         width: 100%;
         border: 1px solid #ccc;
-        border-radius: 5px;
+        border-radius: 3px;
         margin-bottom: 10px;
       }
 button{
